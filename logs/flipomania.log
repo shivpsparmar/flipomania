@@ -1,0 +1,21 @@
+[34mINFO [0;39m [2015-06-06 10:37:18,815] [main] [[36mlog[0;39m]: Logging initialized @1275ms
+[34mINFO [0;39m [2015-06-06 10:37:19,011] [main] [[36mServerFactory[0;39m]: Starting Flipomania
+[34mINFO [0;39m [2015-06-06 10:37:19,133] [main] [[36mSetUIDListener[0;39m]: Opened application@1522d8a0{HTTP/1.1}{0.0.0.0:33333}
+[34mINFO [0;39m [2015-06-06 10:37:19,133] [main] [[36mSetUIDListener[0;39m]: Opened admin@312ab28e{HTTP/1.1}{0.0.0.0:33334}
+[34mINFO [0;39m [2015-06-06 10:37:19,135] [main] [[36mServer[0;39m]: jetty-9.2.z-SNAPSHOT
+[34mINFO [0;39m [2015-06-06 10:37:19,809] [main] [[36mDropwizardResourceConfig[0;39m]: The following paths were found for the configured resources:
+
+    POST    /create_shortlist/ (com.flipkart.flipomania.resources.ShortlistResource)
+
+[31mWARN [0;39m [2015-06-06 10:37:19,811] [main] [[36mErrors[0;39m]: The following warnings have been detected: WARNING: The (sub)resource method executeTheAlgorithm in com.flipkart.flipomania.resources.ShortlistResource contains empty path annotation.
+
+[34mINFO [0;39m [2015-06-06 10:37:19,816] [main] [[36mContextHandler[0;39m]: Started i.d.j.MutableServletContextHandler@52a36910{/,null,AVAILABLE}
+[34mINFO [0;39m [2015-06-06 10:37:19,821] [main] [[36mAdminEnvironment[0;39m]: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+[34mINFO [0;39m [2015-06-06 10:37:19,828] [main] [[36mContextHandler[0;39m]: Started i.d.j.MutableServletContextHandler@9a7a808{/,null,AVAILABLE}
+[34mINFO [0;39m [2015-06-06 10:37:19,854] [main] [[36mServerConnector[0;39m]: Started application@1522d8a0{HTTP/1.1}{0.0.0.0:33333}
+[34mINFO [0;39m [2015-06-06 10:37:19,855] [main] [[36mServerConnector[0;39m]: Started admin@312ab28e{HTTP/1.1}{0.0.0.0:33334}
+[34mINFO [0;39m [2015-06-06 10:37:19,855] [main] [[36mServer[0;39m]: Started @2327ms

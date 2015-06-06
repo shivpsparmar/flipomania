@@ -1,0 +1,28 @@
+name: flipomania
+hostname: localhost
+
+server:
+  adminMinThreads: 1
+  adminMaxThreads: 64
+  applicationConnectors:
+    - type: http
+      port: 33333
+  adminConnectors:
+    - type: http
+      port: 33334
+logging:
+  loggers:
+    "com.flipkart.flipomania": DEBUG
+  appenders:
+  - type: file
+    threshold: INFO
+    timeZone: IST
+    logFormat: "%highlight(%-5level) [%date] [%thread] [%cyan(%logger{0})]: %message%n"
+    currentLogFilename: ./logs/flipomania.log
+    archive: true
+    archivedLogFilenamePattern: ./logs/flipomania-%d{yyyy-MM-dd-HH}.log
+    archivedFileCount: 50
+  - type: console
+    threshold: DEBUG
+    timeZone: IST
+    logFormat: "%highlight(%-5level) [%date] [%thread] [%cyan(%logger{0})]: %message%n"
